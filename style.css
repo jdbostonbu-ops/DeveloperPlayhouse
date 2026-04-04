@@ -194,14 +194,14 @@ html {
   }
   
   .nav a {
-    font-size: 7px;
+    font-size: 6px;
   }
 
   body{
     font-size: 4px;
   }
     .section {
-  font-size: 6px;
+  font-size: 4px;
 }
 
 .main-container h2 p{
@@ -209,11 +209,11 @@ html {
 }
   
 p{
-  font-size: 6px;
+  font-size: 3px;
 }
 
 h2{
-  font-size:6px;
+  font-size:5px;
 }
 
 a {
@@ -278,17 +278,17 @@ html, body {
     height: 100%;       /* Force full height */
     overflow: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
     position: fixed;
-    font-size: 4px;
+    font-size: 3px;
 }
 
   .section {
-  font-size: 6px;
+  font-size: 3px;
 }
 .main-container h2{
-  font-size: 5px;
+  font-size: 4px;
 }
 .main-container p{
-  font-size: 4px;
+  font-size: 3px;
 }
 
 body {
@@ -296,14 +296,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 4px;
+    font-size: 3px;
     min-width: 100vw;
     
 }
 
 
 .painting {
-    width: 50%;
+    width: 100%;
     /* Keep your existing styles here */
 }
 
@@ -357,18 +357,18 @@ html {
   transition: all 0.3s ease;
   gap: 0px;
   background-color: black;
-  font-size: 8px;
+  font-size: 7px;
 }
 
   .banner span{
-    font: 8px;
+    font: 7px;
   }
 .main-container p{
-  font-size: 6px;
+  font-size: 4px;
 }
 
 .main-container h2{
-  font-size:6px;
+  font-size:5px;
 }
 
   canvas{
@@ -446,7 +446,7 @@ html, body {
     height: 100%;       /* Force full height */
     overflow: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
     position: fixed;
-    font-size: 4px;
+    font-size: 3px;
     
 }
 
@@ -455,14 +455,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 4px;
+    font-size: 3px;
     min-width: 100vw;
     
 }
 
 
 .painting {
-    width: 50%;
+    width: 100%;
     /* Keep your existing styles here */
 }
 
