@@ -173,10 +173,10 @@ html {
 /* --- COMPACT IPHONES (Standard Portrait 480px) --- */
 @media (max-width: 480px) {
   html, body {
-    height: 100%;
+    height: 45%;
     overflow: hidden; 
     position: fixed;
-    width: 100%;
+    width: 45%;
     margin: 0;
     padding: 0;
   }
@@ -242,10 +242,10 @@ html {
 @media (max-width: 350px) {
   /* Added the explicit HTML/BODY lock for 350px */
   html, body {
-    height: 100%;
+    height: 45%;
     overflow: hidden;
     position: fixed;
-    width: 100%;
+    width: 45%;
   }
 
   body {
