@@ -198,32 +198,32 @@ html {
   }
 
   body{
-    font-size: 1px;
+    font-size: .5px;
     line-height: .5;
   }
     .section {
-  font-size: 1px;
+  font-size: .5px;
   line-height: .5;
 }
 
 .main-container h2 p{
-  font-size:2px;
+  font-size:1px;
   line-height: .5;
 }
 
 .micro-text {
-  font-size: 10px;        /* Set to a size the browser allows */
-  transform: scale(0.1);  /* Shrinks it to 1/10th of the size (effectively 1px) */
+ 
+  transform: scale(0.5);  /* Shrinks it to 1/10th of the size (effectively 1px) */
   display: inline-block;  /* Required for transform to work on spans */
 }
   
 p{
-  font-size: 1px;
+  font-size: .5px;
   line-height: .5;
 }
 
 h2{
-  font-size:2px;
+  font-size:1px;
   line-height: .5;
   margin-top: 40px;
 }
@@ -292,22 +292,22 @@ html, body {
     min-height: 100%;/* Force full height */
     overflow-x: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
     position: fixed;
-    font-size: 1px;
+    font-size: .5px;
     overflow-y: auto;
     line-height: .5;
 }
 
   .section {
-  font-size: 1px;
+  font-size: .5px;
   line-height: .5;
 }
 .main-container h2{
-  font-size: 2px;
+  font-size: 1px;
   line-height: .5;
   margin-top: 40px;
 }
 .main-container p{
-  font-size: 1px;
+  font-size: .5px;
   line-height: .5;
 }
 
@@ -316,7 +316,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 1px;
+    font-size: .5px;
     min-width: 100vw;
     line-height: .5;
     
@@ -386,18 +386,17 @@ html {
   }
 
   .micro-text {
-  font-size: 10px;        /* Set to a size the browser allows */
-  transform: scale(0.1);  /* Shrinks it to 1/10th of the size (effectively 1px) */
+  transform: scale(0.5);  /* Shrinks it to 1/10th of the size (effectively 1px) */
   display: inline-block;  /* Required for transform to work on spans */
 }
   
 .main-container p{
-  font-size: 1px;
+  font-size: .5px;
   line-height: .5;
 }
 
 .main-container h2{
-  font-size:2px;
+  font-size: 1px;
   line-height: .5;
   margin-top: 40px;
 }
