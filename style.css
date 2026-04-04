@@ -22,7 +22,7 @@ a {
   color: silver;
   padding-right: 40px;
   margin-right: 50px;
- 
+  position: static;
   cursor: pointer;
 }
 
