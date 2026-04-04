@@ -234,6 +234,7 @@ html {
 
   #about h2 { font-size: 6px !important; margin: 2px 0; }
   #about p { font-size: 3px !important; line-height: 1.2; }
+  p{ font-size: 6px;}
 }
 
 
@@ -289,6 +290,8 @@ html {
     font-size: 3px !important;
     line-height: 1.1;
   }
+  p{
+    font-size: 6px;
 }
 
 
