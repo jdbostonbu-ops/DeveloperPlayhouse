@@ -217,8 +217,8 @@ html {
   }
 
   canvas {
-    width: 45vw !important; 
-    max-height: 15vh !important;
+    width: 100vw !important; 
+    max-height: 100vh !important;
     margin-top: 5px;
     border: 1px dashed #333;
     touch-action: none;
@@ -251,10 +251,19 @@ html {
 @media (max-width: 350px) {
   /* Added the explicit HTML/BODY lock for 350px */
   html, body {
-    height: 45%;
+    height: 100%;
     overflow: hidden;
     position: fixed;
-    width: 45%;
+    width: 100%;
+  }
+
+   .main-container {
+    display: flex;
+    flex-direction: row; /* Side-by-side on iPhone */
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 5px;
   }
 
   body {
@@ -275,8 +284,8 @@ html {
   }
 
   canvas {
-    width: 45vw !important;
-    max-height: 15vh !important; /* Even shorter for the smallest screens */
+    width: 100vw !important;
+    max-height: 100vh !important; /* Even shorter for the smallest screens */
     margin-top: 2px;
   }
 
