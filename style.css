@@ -325,6 +325,8 @@ body {
     font-size: .3px;
     min-width: 100vw;
     line-height: .5;
+    justify-content: flex-start;
+    padding-top: 60px;
     
 }
 
@@ -503,6 +505,8 @@ body {
     font-size: .5px;
     min-width: 100vw;
     line-height: .5;
+    justify-content: flex-start;
+    padding-top: 60px;
     
 }
 
