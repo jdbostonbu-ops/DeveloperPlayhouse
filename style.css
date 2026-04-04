@@ -25,19 +25,6 @@ a {
   cursor: pointer;
 }
 
-@keyframes pop {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.3); } /* Grows 30% larger */
-  100% { transform: scale(1); }  /* Snaps back to normal */
-}
-
-/* 2. Apply it to the Links on CLICK (active) */
-a:active {
-  display: inline-block; 
-  animation: pop 0.3s ease-out; /* Happens once per click */
-  color: #00f3ff; /* Optional: Flash the neon color on click */
-}
-
 /* The Line (Invisible and off-screen to the left by default) */
 a::after {
   content: "";
