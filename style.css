@@ -189,6 +189,10 @@ html {
   background-color: black;
   font-size: 4px;
 }
+  .nav {
+    font-size: 4px;
+  }
+  
 p{
   font-size: 4px;
 }
@@ -343,7 +347,11 @@ h2{
     width:40px;
     height:40px;
   }
-
+  
+  .nav{
+    font-size: 4px;
+  }
+  
 a {
   text-decoration: none;
   color: silver;
