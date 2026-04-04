@@ -223,7 +223,7 @@ html {
 
   canvas {
     width: 50%; 
-    max-height: 100px;
+    max-height: 50%;
     margin-top: 5px;
     border: 1px dashed #333;
     touch-action: none;
@@ -278,10 +278,6 @@ html {
     padding: 2px;
   }
 
-  heading {
-    font-size: 15px;
-  }
-
   .banner {
     padding: 0.2em;
     gap: 2px;
@@ -301,7 +297,7 @@ html {
   canvas {
     margin-top: 2px;
     width: 50%;
-    height: 100px;
+    height: 50%;
   }
 
   .palette {
