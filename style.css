@@ -73,7 +73,9 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x: hidden; /* This kills the horizontal scrollbar */
+    height: 100%;       /* Force full height */
+    overflow: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
+    position: fixed;
 }
 
 body {
