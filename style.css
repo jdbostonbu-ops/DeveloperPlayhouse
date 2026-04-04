@@ -278,6 +278,8 @@ html {
     padding: 0.2em;
     gap: 2px;
     width: 100vw;
+    display: flex
+    justify-content: space-between;
   }
 
   a {
