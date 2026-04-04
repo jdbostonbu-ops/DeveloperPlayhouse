@@ -199,26 +199,26 @@ html {
 
   body{
     font-size: 3px;
-    line-height: 1;
+    line-height: .5;
   }
     .section {
   font-size: 2px;
-  line-height: 1;
+  line-height: .5;
 }
 
 .main-container h2 p{
   font-size:3px;
-  line-height: 1;
+  line-height: .5;
 }
   
 p{
   font-size: 2px;
-  line-height: 1;
+  line-height: .5;
 }
 
 h2{
   font-size:3px;
-  line-height: 1;
+  line-height: .5;
 }
 
 a {
@@ -287,20 +287,20 @@ html, body {
     position: fixed;
     font-size: 2px;
     overflow-y: auto;
-    line-height: 1;
+    line-height: .5;
 }
 
   .section {
   font-size: 2px;
-  line-height: 1;
+  line-height: .5;
 }
 .main-container h2{
   font-size: 3px;
-  line-height: 1;
+  line-height: .5;
 }
 .main-container p{
   font-size: 2px;
-  line-height: 1;
+  line-height: .5;
 }
 
 body {
@@ -310,7 +310,7 @@ body {
     min-height: 100vh;
     font-size: 3px;
     min-width: 100vw;
-    line-height: 1;
+    line-height: .5;
     
 }
 
@@ -378,12 +378,12 @@ html {
   }
 .main-container p{
   font-size: 2px;
-  line-height: 1;
+  line-height: .5;
 }
 
 .main-container h2{
   font-size:3px;
-  line-height: 1;
+  line-height: .5;
 }
 
   canvas{
@@ -465,7 +465,7 @@ html, body {
     position: fixed;
     font-size: 1px;
     overflow-y: auto;
-    line-height: 1;
+    line-height: .5;
     
 }
 
@@ -476,7 +476,7 @@ body {
     min-height: 100vh;
     font-size: 2px;
     min-width: 100vw;
-    line-height: 1;
+    line-height: .5;
     
 }
 
