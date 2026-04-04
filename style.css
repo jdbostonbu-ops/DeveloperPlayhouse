@@ -201,11 +201,6 @@ h2{
   font-size:6px;
 }
 
-  canvas{
-    width:40px;
-    height:40px;
-  }
-
 a {
   text-decoration: none;
   color: silver;
@@ -344,8 +339,12 @@ h2{
 }
 
   canvas{
-    width:40px;
-    height:40px;
+  background: white;
+  border: 1px dashed;
+  margin-top: 20px;
+  touch-action: none;
+  width: 40px;
+  height: 40px;
   }
   
   .nav{
@@ -402,6 +401,8 @@ canvas {
   touch-action: none;              /* Prevents panning/zooming in most browsers */
   -webkit-user-select: none;       /* Prevents text selection on long-press */
   -webkit-touch-callout: none;
+  width: 40px;
+  height: 40px;
 }
 
 html, body {
