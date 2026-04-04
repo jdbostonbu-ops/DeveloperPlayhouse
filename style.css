@@ -199,6 +199,10 @@ html {
     background-color: #f0f0f0;
   }
 
+  .heading {
+    font-size: 15px;
+  }
+
   .banner {
     position: relative;
     flex-direction: column;
@@ -272,6 +276,10 @@ html {
     flex-direction: column;
     justify-content: center; /* Centers the whole 'Playhouse' on the tiny screen */
     padding: 2px;
+  }
+
+  .heading {
+    font-size: 15px;
   }
 
   .banner {
