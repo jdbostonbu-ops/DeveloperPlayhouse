@@ -22,21 +22,20 @@ a {
   color: silver;
   padding-right: 40px;
   margin-right: 50px;
-  position: static;
   cursor: pointer;
 }
 
-@keyframes tremble {
-  0% { transform: translate(0, 0); }
-  25% { transform: translate(2px, -2px); }
-  50% { transform: translate(-2px, 2px); }
-  75% { transform: translate(2px, 2px); }
-  100% { transform: translate(0, 0); }
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); } /* Grows 30% larger */
+  100% { transform: scale(1); }  /* Snaps back to normal */
 }
 
-a:hover {
-  display: inline-block; /* Required for transform to work properly */
-  animation: tremble 0.2s infinite; /* Trembles rapidly while hovered */
+/* 2. Apply it to the Links on CLICK (active) */
+a:active {
+  display: inline-block; 
+  animation: pop 0.3s ease-out; /* Happens once per click */
+  color: #00f3ff; /* Optional: Flash the neon color on click */
 }
 
 /* The Line (Invisible and off-screen to the left by default) */
