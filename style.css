@@ -219,6 +219,7 @@ p{
 h2{
   font-size:2px;
   line-height: .5;
+  margin-top: 40px;
 }
 
 a {
@@ -297,6 +298,7 @@ html, body {
 .main-container h2{
   font-size: 2px;
   line-height: .5;
+  margin-top: 40px;
 }
 .main-container p{
   font-size: 1px;
@@ -384,6 +386,7 @@ html {
 .main-container h2{
   font-size:2px;
   line-height: .5;
+  margin-top: 40px;
 }
 
   canvas{
