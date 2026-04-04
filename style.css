@@ -198,26 +198,26 @@ html {
   }
 
   body{
-    font-size: 3px;
+    font-size: 1px;
     line-height: .5;
   }
     .section {
-  font-size: 2px;
+  font-size: 1px;
   line-height: .5;
 }
 
 .main-container h2 p{
-  font-size:3px;
+  font-size:2px;
   line-height: .5;
 }
   
 p{
-  font-size: 2px;
+  font-size: 1px;
   line-height: .5;
 }
 
 h2{
-  font-size:3px;
+  font-size:2px;
   line-height: .5;
 }
 
@@ -285,21 +285,21 @@ html, body {
     min-height: 100%;/* Force full height */
     overflow-x: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
     position: fixed;
-    font-size: 2px;
+    font-size: 1px;
     overflow-y: auto;
     line-height: .5;
 }
 
   .section {
-  font-size: 2px;
+  font-size: 1px;
   line-height: .5;
 }
 .main-container h2{
-  font-size: 3px;
+  font-size: 2px;
   line-height: .5;
 }
 .main-container p{
-  font-size: 2px;
+  font-size: 1px;
   line-height: .5;
 }
 
@@ -308,7 +308,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 3px;
+    font-size: 1px;
     min-width: 100vw;
     line-height: .5;
     
@@ -377,12 +377,12 @@ html {
     font: 5px;
   }
 .main-container p{
-  font-size: 2px;
+  font-size: 1px;
   line-height: .5;
 }
 
 .main-container h2{
-  font-size:3px;
+  font-size:2px;
   line-height: .5;
 }
 
@@ -474,7 +474,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 2px;
+    font-size: 1px;
     min-width: 100vw;
     line-height: .5;
     
