@@ -209,7 +209,7 @@ html {
 
   canvas {
     width: 45vw !important; 
-    max-height: 35vh !important;
+    max-height: 15vh !important;
     margin-top: 5px;
     border: 1px dashed #333;
     touch-action: none;
@@ -266,7 +266,7 @@ html {
 
   canvas {
     width: 45vw !important;
-    max-height: 30vh !important; /* Even shorter for the smallest screens */
+    max-height: 15vh !important; /* Even shorter for the smallest screens */
     margin-top: 2px;
   }
 
