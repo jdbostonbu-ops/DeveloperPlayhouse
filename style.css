@@ -197,8 +197,9 @@ html {
     min-height: auto; /* Allows the page to grow naturally with scroll */
   }
 
-  canvas {
-    width: 95vw !important; /* Take up more of the screen width */
+   canvas {
+    width: 50vw !important;  /* Fits the width of the phone */
+    height: 300px !important; /* Forces the height to be smaller so swatches fit */
   }
 
   .swatch {
@@ -238,9 +239,9 @@ html {
     text-align: center;
   }
 
-    canvas {
-    width: 98vw !important;  /* Maximize drawing space on tiny screens */
-    height: 300px !important; /* Cap the height so the palette stays visible */
+   canvas {
+    width: 50vw !important;  
+    max-height: 250px !important; /* Forces it to be short enough for the palette to fit */
     margin-top: 5px;
     border: 1px dashed #ccc;
   }
