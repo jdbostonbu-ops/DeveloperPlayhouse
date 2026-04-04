@@ -199,7 +199,9 @@ html {
 
    canvas {
     width: 50vw !important;  /* Fits the width of the phone */
-    height: 300px !important; /* Forces the height to be smaller so swatches fit */
+    max-height: 250px !important; /* Forces it to be short enough for the palette to fit */
+    margin-top: 5px;
+    border: 1px dashed #ccc;
   }
 
   .swatch {
