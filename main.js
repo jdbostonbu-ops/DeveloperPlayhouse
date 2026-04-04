@@ -18,11 +18,21 @@ function draw(x, y) {
 }
 
 // Drawing Event Listeners
-canvas.addEventListener("mousemove", (event) => draw(event.offsetX, event.offsetY));
-canvas.addEventListener("mousedown", () => (isDrawing = true));
-canvas.addEventListener("mouseup", () => (isDrawing = false));
+canvas.addEventListener("pointerdown", (e) => {
+  isDrawing = true;
+  draw(e.offsetX, e.offsetY); 
+});
 
-// 3. THE "FORCE DOWNLOAD" LOGIC
+// pointermove tracks the finger or mouse
+canvas.addEventListener("pointermove", (e) => {
+  draw(e.offsetX, e.offsetY);
+});
+
+// pointerup and pointerleave act as the safety "off" switch
+canvas.addEventListener("pointerup", () => (isDrawing = false));
+canvas.addEventListener("pointerleave", () => (isDrawing = false));
+
+// THE "DOWNLOAD" LOGIC
 document.querySelector("a").addEventListener("click", (event) => {
   event.preventDefault(); // Stop the "broken" default click
 
