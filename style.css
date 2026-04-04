@@ -210,6 +210,12 @@ html {
   font-size:2px;
   line-height: .5;
 }
+
+.micro-text {
+  font-size: 10px;        /* Set to a size the browser allows */
+  transform: scale(0.1);  /* Shrinks it to 1/10th of the size (effectively 1px) */
+  display: inline-block;  /* Required for transform to work on spans */
+}
   
 p{
   font-size: 1px;
@@ -378,6 +384,13 @@ html {
   .banner span{
     font: 5px;
   }
+
+  .micro-text {
+  font-size: 10px;        /* Set to a size the browser allows */
+  transform: scale(0.1);  /* Shrinks it to 1/10th of the size (effectively 1px) */
+  display: inline-block;  /* Required for transform to work on spans */
+}
+  
 .main-container p{
   font-size: 1px;
   line-height: .5;
