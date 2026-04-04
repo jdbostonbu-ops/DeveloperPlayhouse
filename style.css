@@ -300,6 +300,7 @@ html, body {
   .section {
   font-size: .5px;
   line-height: .5;
+  padding: 25px;
 }
 .main-container h2{
   font-size: 1px;
@@ -399,6 +400,9 @@ html {
   font-size: 1px;
   line-height: .5;
   margin-top: 40px;
+}
+.section{
+  padding: 25px;
 }
 
   canvas{
