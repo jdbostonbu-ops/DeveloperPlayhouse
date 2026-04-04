@@ -247,7 +247,7 @@ html {
   }
 
   #about h2 { font-size: 12px; margin: 2px 0; }
-  #about p { font-size: 9px !important; line-height: 1.2; }
+  #about p { font-size: 9px; margin-left:5px; line-height: 1.2; }
   p{ font-size: 9px;}
 }
 
@@ -322,6 +322,7 @@ html {
   #about p {
     font-size: 9px !important;
     line-height: 1.1;
+    margin-left: 5px;
   }
   p{
     font-size: 9px;
