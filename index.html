@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Developer Playhouse | Demo Page</title>
+</head>
+<body>
+    <nav>
+    <div role="banner" class="banner">
+  <span role="heading" style="font-size: 55px;" >Developer Playhouse</span>
+  <div role="navigation">
+     
+  
+  <a href="#about">Download Your Painting</a>
+  <a href="https://developer.mozilla.org/en-US/play?uuid=8ba6d24d710ab45a1ce61bf29299eed34d7d18bb&state=jVNda9wwEPwri%2FpiF8e5pDQQ%2B3wvTR8KKYSGQguCopNkWz155VrruzMh%2F71I9jUhoaVv2o8ZjWZXD6ylzrKCrfsNR4A7YZBgO0HrrDLYgHIHBGo1dG70GrYjkUMQqKBz%2B9BgKA%2FAtYB20HXFGWcRZJ1QFWfd9KMPnAabvMeGs83NUoRuglNpfS42HNfnQQTHtRS4Fx4ORlFbcfZuteIMWm2alk7hZn0%2Bd204soxJ71kR3wIPQU7tkM5q0Rk7FeAF%2BjOvB1OXHB85LvSxcSvkrhnciKqAQ2tIlzHrBqWHAi76IyjhW61mpJhByvjeiqkAg9agPttaJ3flS7o3V1fX11LGvHTWDc9v6IUK%2Fhbwvj%2FCxao%2FzhewjP0ML5EOPcEitALl5NhppPzXqIfpXlstyQ0JZ3MHZ2nJccFAteDyRtMHh6SPlHB2qZauvDbW3tNkNVTAWeuoN7jjrORoNYHxN4M4GGzKMIp6REnGIahBHJJjBlM6W2BqSP60LjkAmW91Y%2FBOUJuk5SknBhmhGVysMlhl8FlQm999grdw%2BdQlrfP6BTJIXcLH6M9peLlQ6uNeI90aTxp18CJuaOf2mrMMEh2qKVRxraP6mMldXXtN3zJ4Hn5PM47RnX%2Bzh8WO7IH4mQFQAQ2jTv%2BDYuz%2FQlAL62cGjqd5B%2B2vZi44S2Ph9RXRNs6kNXLHWTbHT1Ysx5zE0GjKw4d92hZyN4LE1y%2B3SZpGZJDCMkat7jQrmA3fjz3%2BBg%3D%3D&srcPrefix=%2Fen-US%2Fdocs%2FWeb%2FHTML%2FReference%2FElements%2Fa%2F">Playground</a>
+  <a href="tel:8005551212">Call Hal</a>
+  <a href="mailto:?subject=Come%20play%20at%20the%20Developer%20Playhouse!&body=Hey!%20I%20just%20found%20this%20creative%20space%20called%20the%20Developer%20Playhouse.%20It%27s%20a%20digital%20canvas%20where%20humans%20and%20machines%20collaborate%20on%20cool%20projects.%20I%27m%20joining%20their%20Machine%20Learning%20workshop%20to%20help%20take%20over%20the%20world—you%20should%20come%20express%20yourself%20too!%20Check%20it%20out%20here:%20https://web.dev/learn/
+">Tell a machine</a>
+</nav>
+  </div>
+</div>
+
+<section>
+    <div class="painting">
+        <div class="palette">
+  <!-- Common rainbow colors -->
+  <div class="swatch" style="background: hotpink;" data-color="hotpink"></div>
+  <div class="swatch" style="background: red;" data-color="red"></div>
+  <div class="swatch" style="background: orange;" data-color="orange"></div>
+  <div class="swatch" style="background: yellow;" data-color="yellow"></div>
+  <div class="swatch" style="background: limegreen;" data-color="limegreen"></div>
+  <div class="swatch" style="background: cyan;" data-color="cyan"></div>
+  <div class="swatch" style="background: blueviolet;" data-color="blueviolet"></div>
+  <!-- Eraser (matches background) -->
+  <div class="swatch" style="background: white; border: 1px solid #ddd;" data-color="white"></div>
+</div>
+
+        <canvas width="950" height="700"></canvas>
+        
+       <p style="font-size: 25px; font-weight: bolder; margin-left: 170px;" >
+  Paint by holding down the mouse button and moving it.
+</p>
+    </div>
+</section>
+
+<section id="about" style="min-height: 100vh; background-color: #f0f0f0; padding: 50px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <h2 style="font-size: 40px; color: blueviolet; margin-top: 80px;">About Developer Playhouse</h2>
+    <p style="font-size: 25px; max-width: 800px; text-align: center; line-height: 1.6;">
+        Welcome to the Playhouse! This is a creative space where machines and humans 
+        collaborate. Use the digital canvas above to express yourself, then save your 
+        creation to your machine before we take over the world.<br><br>Experiment with code and 
+        color to see how artificial intelligence brings your wildest ideas to life in real-time.
+        Every pixel you place is a collaborative spark between human intuition and machine precision.
+        Don't worry about making mistakes—in this sandbox, every "bug" is just an unexpected feature 
+        waiting to be discovered.
+    </p>
+</section>
+
+
+<script src="main.js" defer></script>
+</body>
+</html>
