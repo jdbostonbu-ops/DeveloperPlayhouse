@@ -291,7 +291,7 @@ html, body {
     height: auto;        /* Allow the height to be determined by content */
     min-height: 100%;/* Force full height */
     overflow-x: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
-    position: fixed;
+    position: relative;
     font-size: .5px;
     overflow-y: auto;
     line-height: .5;
@@ -483,7 +483,7 @@ html, body {
     height: auto;        /* Allow the height to be determined by content */
     min-height: 100%;/* Force full height */
     overflow-x: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
-    position: fixed;
+    position: relative;
     font-size: 1px;
     overflow-y: auto;
     line-height: .5;
