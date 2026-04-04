@@ -64,6 +64,9 @@ canvas {
   background: white;
   border: 1px dashed;
   margin-top: 20px;
+  touch-action: none;              /* Prevents panning/zooming in most browsers */
+  -webkit-user-select: none;       /* Prevents text selection on long-press */
+  -webkit-touch-callout: none;
 }
 
 html, body {
