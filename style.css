@@ -208,7 +208,7 @@ html {
   }
 
   canvas {
-    width: 90vw !important; 
+    width: 45vw !important; 
     max-height: 35vh !important;
     margin-top: 5px;
     border: 1px dashed #333;
@@ -265,7 +265,7 @@ html {
   }
 
   canvas {
-    width: 95vw !important;
+    width: 45vw !important;
     max-height: 30vh !important; /* Even shorter for the smallest screens */
     margin-top: 2px;
   }
