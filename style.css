@@ -371,8 +371,8 @@ html {
   border: 1px dashed;
   margin-top: 20px;
   touch-action: none;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   }
   
   .nav a{
@@ -430,8 +430,8 @@ canvas {
   touch-action: none;              /* Prevents panning/zooming in most browsers */
   -webkit-user-select: none;       /* Prevents text selection on long-press */
   -webkit-touch-callout: none;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 html, body {
@@ -472,13 +472,13 @@ html {
 }
 
 .swatch {
-  width: 35px;
-  height: 35px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%; /* Makes them circles */
   cursor: pointer;
   border: 3px solid transparent;
   transition: transform 0.2s, border-color 0.2s;
-  margin-top: 150px;
+  margin-top: 75px;
 }
 
 .swatch:hover {
