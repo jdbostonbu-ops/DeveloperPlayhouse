@@ -183,6 +183,15 @@ html {
     padding: 5px 0;
   }
 
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%; 
+    /* Remove 'position: fixed' from here so we can scroll on tiny screens */
+    overflow-x: hidden; 
+}
+
    body {
     padding: 10px; /* Adds a small buffer so content doesn't hit the screen edges */
     min-height: auto; /* Allows the page to grow naturally with scroll */
@@ -210,6 +219,15 @@ html {
     display: block; /* Switches from Flex to Block to ensure smooth vertical scrolling */
     padding: 5px;
   }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%; 
+    /* Remove 'position: fixed' from here so we can scroll on tiny screens */
+    overflow-x: hidden; 
+}
 
   /* Specific Link Styles for tiny screens */
   a {
