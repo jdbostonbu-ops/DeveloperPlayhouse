@@ -26,6 +26,19 @@ a {
   cursor: pointer;
 }
 
+@keyframes tremble {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(2px, -2px); }
+  50% { transform: translate(-2px, 2px); }
+  75% { transform: translate(2px, 2px); }
+  100% { transform: translate(0, 0); }
+}
+
+a:hover {
+  display: inline-block; /* Required for transform to work properly */
+  animation: tremble 0.2s infinite; /* Trembles rapidly while hovered */
+}
+
 /* The Line (Invisible and off-screen to the left by default) */
 a::after {
   content: "";
@@ -131,6 +144,12 @@ html {
     gap: 15px;
   }
 
+    body {
+    flex-direction: column; /* Stacks the banner, canvas, and palette vertically */
+    justify-content: flex-start; /* Aligns content to the top so it doesn't float in the middle */
+    padding-top: 20px;
+  }
+
   /* Links */
   a {
     margin-right: 0;        /* Remove huge desktop margins */
@@ -158,4 +177,81 @@ html {
     padding: 10px;
   }
 }
+
+/* --- COMPACT PHONES (e.g., iPhone 12/13/14) --- */
+@media (max-width: 480px) {
+  .banner {
+    flex-direction: column;
+    padding: 0.8em;
+    gap: 10px;
+  }
+
+  a {
+    font-size: 14px; /* Slightly smaller links */
+    margin: 0;
+    padding: 5px 0;
+  }
+
+   body {
+    padding: 10px; /* Adds a small buffer so content doesn't hit the screen edges */
+    min-height: auto; /* Allows the page to grow naturally with scroll */
+  }
+
+  canvas {
+    width: 95vw !important; /* Take up more of the screen width */
+  }
+
+  .swatch {
+    width: 40px; 
+    height: 40px;
+    margin-top: 15px;
+  }
+}
+
+/* --- EXTRA SMALL PHONES (e.g., iPhone SE, 350px width) --- */
+@media (max-width: 350px) {
+  .banner {
+    padding: 0.5em;
+    font-size: 12px;
+  }
+
+  body {
+    display: block; /* Switches from Flex to Block to ensure smooth vertical scrolling */
+    padding: 5px;
+  }
+
+  /* Specific Link Styles for tiny screens */
+  a {
+    font-size: 13px;       /* Slightly smaller text to prevent overlap */
+    padding: 4px 0;       /* Tighten vertical spacing */
+    margin: 0;            /* Zero out any remaining desktop margins */
+    display: block;       /* Ensures the tap area spans the full width */
+    text-align: center;
+  }
+
+    canvas {
+    width: 98vw !important;  /* Maximize drawing space on tiny screens */
+    height: 300px !important; /* Cap the height so the palette stays visible */
+    margin-top: 5px;
+    border: 1px dashed #ccc;
+  }
+
+  .palette {
+    gap: 8px;             /* Tighten the gap between colors */
+  }
+
+  .swatch {
+    width: 32px;          /* Shrink swatches slightly to fit the row */
+    height: 32px;
+    margin-top: 10px;
+  }
+
+  /* Scale down the "About" text so it fits the screen */
+  #about p {
+    font-size: 18px !important; 
+    line-height: 1.4;
+  }
+}
+
+
 
