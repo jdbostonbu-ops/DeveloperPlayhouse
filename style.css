@@ -199,8 +199,8 @@ html {
     background-color: #f0f0f0;
   }
 
-  heading {
-    font-size: 15px;
+ .banner span[role="heading"] {
+    font-size: 12px;
   }
 
   .banner {
@@ -288,6 +288,9 @@ html {
     width: 100vw;
     display: flex
     justify-content: space-between;
+  }
+  .banner span[role="heading"] {
+    font-size: 12px !important;
   }
 
   a {
