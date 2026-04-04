@@ -277,6 +277,7 @@ html {
   .banner {
     padding: 0.2em;
     gap: 2px;
+    width: 100vw;
   }
 
   a {
@@ -286,8 +287,8 @@ html {
 
   canvas {
     margin-top: 2px;
-    width: 60px;
-    height: 60px;
+    width: 20px;
+    height: 100px;
   }
 
   .palette {
