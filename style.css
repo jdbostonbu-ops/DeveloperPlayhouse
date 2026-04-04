@@ -281,7 +281,7 @@ canvas {
   touch-action: none;              /* Prevents panning/zooming in most browsers */
   -webkit-user-select: none;       /* Prevents text selection on long-press */
   -webkit-touch-callout: none;
-  width: 20px;
+  width: 50vw;
   height: 90vh;
 }
 
@@ -477,7 +477,7 @@ canvas {
   touch-action: none;              /* Prevents panning/zooming in most browsers */
   -webkit-user-select: none;       /* Prevents text selection on long-press */
   -webkit-touch-callout: none;
-  width: 30px;
+  width: 50vw;
   height: 90vh;
   
 }
