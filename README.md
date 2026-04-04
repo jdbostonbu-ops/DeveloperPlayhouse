@@ -26,4 +26,4 @@
 - Pick a color from the swatches.
 - Click and drag on the canvas to start collaborating.
 - Click the download link to save your my_painting.png.
-**Created with 🎨 by Jacqueline**
+- **Created with 🎨 by Jacqueline**
