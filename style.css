@@ -190,11 +190,18 @@ html {
   font-size: 4px;
 }
   .nav {
-    font-size: 4px;
+    font-size: 6px;
   }
+    .section {
+  font-size: 6px;
+}
+
+.main-container h2 p{
+  font-size:8px;
+}
   
 p{
-  font-size: 4px;
+  font-size: 6px;
 }
 
 h2{
@@ -260,7 +267,17 @@ html, body {
     height: 100%;       /* Force full height */
     overflow: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
     position: fixed;
-    font-size: 4px;
+    font-size: 6px;
+}
+
+  .section {
+  font-size: 6px;
+}
+.main-container h2{
+  font-size: 8px;
+}
+.main-container h2 p{
+  font-size:6px;
 }
 
 body {
@@ -268,7 +285,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 4px;
+    font-size: 6px;
     
 }
 
@@ -328,14 +345,14 @@ html {
   transition: all 0.3s ease;
   gap: 0px;
   background-color: black;
-  font-size: 4px;
+  font-size: 6px;
 }
-p{
-  font-size: 4px;
+.main-container p{
+  font-size: 6px;
 }
 
-h2{
-  font-size:6px;
+.main-container h2{
+  font-size:8px;
 }
 
   canvas{
@@ -348,7 +365,7 @@ h2{
   }
   
   .nav{
-    font-size: 4px;
+    font-size: 6px;
   }
   
 a {
@@ -412,7 +429,7 @@ html, body {
     height: 100%;       /* Force full height */
     overflow: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
     position: fixed;
-    font-size: 4px;
+    font-size: 6px;
 }
 
 body {
@@ -420,7 +437,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 4px;
+    font-size: 6px;
     
 }
 
