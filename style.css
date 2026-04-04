@@ -297,6 +297,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-size: 4px;
+    min-width: 100vw;
     
 }
 
@@ -455,6 +456,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-size: 4px;
+    min-width: 100vw;
     
 }
 
