@@ -190,18 +190,18 @@ html {
   font-size: 4px;
 }
  .banner span{
-    font: 8px;
+    font: 7px;
   }
   
-  .nav {
-    font-size: 6px;
+  .nav a {
+    font-size: 7px;
   }
     .section {
   font-size: 6px;
 }
 
 .main-container h2 p{
-  font-size:8px;
+  font-size:7px;
 }
   
 p{
@@ -263,6 +263,8 @@ canvas {
   touch-action: none;              /* Prevents panning/zooming in most browsers */
   -webkit-user-select: none;       /* Prevents text selection on long-press */
   -webkit-touch-callout: none;
+  width: 20px;
+  height: 20px;
 }
 
 html, body {
@@ -319,7 +321,7 @@ html {
   cursor: pointer;
   border: 3px solid transparent;
   transition: transform 0.2s, border-color 0.2s;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .swatch:hover {
@@ -373,8 +375,8 @@ html {
   height: 40px;
   }
   
-  .nav{
-    font-size: 8px;
+  .nav a{
+    font-size: 7px;
   }
   
 a {
@@ -439,7 +441,7 @@ html, body {
     height: 100%;       /* Force full height */
     overflow: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
     position: fixed;
-    font-size: 6px;
+    
 }
 
 body {
@@ -447,7 +449,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 6px;
+    font-size: 7px;
     
 }
 
@@ -476,7 +478,7 @@ html {
   cursor: pointer;
   border: 3px solid transparent;
   transition: transform 0.2s, border-color 0.2s;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .swatch:hover {
