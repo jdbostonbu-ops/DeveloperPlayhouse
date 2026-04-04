@@ -118,3 +118,44 @@ html {
   border-color: #333; /* Highlight selected color */
 }
 
+/* Mobile and Tablet Adjustments */
+@media (max-width: 768px) {
+  
+  /* the Banner (Nav) */
+  .banner {
+    flex-direction: column; /* Stack links vertically */
+    padding: 1em;
+    position: relative;     /* Unstick it so it doesn't cover the canvas */
+    width: 100%;
+    font-size: 16px;        /* Slightly smaller text for mobile */
+    gap: 15px;
+  }
+
+  /* Links */
+  a {
+    margin-right: 0;        /* Remove huge desktop margins */
+    padding-right: 0;
+    width: 100%;            /* Make tap targets bigger */
+    text-align: center;
+  }
+
+  /* Canvas */
+  canvas {
+    width: 90vw !important; /* Force canvas to fit the screen width */
+    height: auto;           /* Keep aspect ratio */
+    margin-top: 10px;
+  }
+
+  /* Palette/Swatches */
+  .swatch {
+    margin-top: 20px;       /* Bring them up closer to the canvas */
+    width: 45px;            /* Make them bigger for fingers/thumbs */
+    height: 45px;
+  }
+
+  .palette {
+    flex-wrap: wrap;        /* Let colors wrap to a second row if needed */
+    padding: 10px;
+  }
+}
+
