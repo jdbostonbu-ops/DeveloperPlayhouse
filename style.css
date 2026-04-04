@@ -196,6 +196,10 @@ html {
   .nav a {
     font-size: 7px;
   }
+
+  body{
+    font-size: 4px;
+  }
     .section {
   font-size: 6px;
 }
@@ -274,17 +278,17 @@ html, body {
     height: 100%;       /* Force full height */
     overflow: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
     position: fixed;
-    font-size: 6px;
+    font-size: 4px;
 }
 
   .section {
   font-size: 6px;
 }
 .main-container h2{
-  font-size: 8px;
+  font-size: 5px;
 }
 .main-container p{
-  font-size: 6px;
+  font-size: 4px;
 }
 
 body {
@@ -292,7 +296,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 6px;
+    font-size: 4px;
     
 }
 
@@ -441,6 +445,7 @@ html, body {
     height: 100%;       /* Force full height */
     overflow: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
     position: fixed;
+    font-size: 4px;
     
 }
 
@@ -449,7 +454,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 7px;
+    font-size: 4px;
     
 }
 
