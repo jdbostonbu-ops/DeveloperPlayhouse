@@ -345,14 +345,14 @@ html {
   transition: all 0.3s ease;
   gap: 0px;
   background-color: black;
-  font-size: 6px;
+  font-size: 8px;
 }
 .main-container p{
-  font-size: 6px;
+  font-size: 4px;
 }
 
 .main-container h2{
-  font-size:8px;
+  font-size:6px;
 }
 
   canvas{
@@ -365,7 +365,7 @@ html {
   }
   
   .nav{
-    font-size: 6px;
+    font-size: 8px;
   }
   
 a {
@@ -374,6 +374,7 @@ a {
   padding-right: 40px;
   margin-right: 50px;
   cursor: pointer;
+  font-size: 8px;
 }
 
 /* The Line (Invisible and off-screen to the left by default) */
