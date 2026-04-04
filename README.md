@@ -20,7 +20,8 @@
 - Tracks isDrawing via mousedown/mouseup listeners to ensure you only paint when you want to.
 # Memory Management: 
 - Automatically revokes object URLs after downloads to keep the browser running lean.
-# Active UI: 
+# Active UI:
+- iPad/Tablet compatible.
 - Visual 'active' states on swatches to let you know exactly which "machine" is helping you draw.
 - Pick a color from the swatches.
 - Click and drag on the canvas to start collaborating.
