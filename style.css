@@ -220,12 +220,14 @@ html {
 p{
   font-size: .5px;
   line-height: .3;
+  margin-top: 5px;
 }
 
 h2{
   font-size:1px;
   line-height: .3;
   margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 a {
@@ -307,10 +309,12 @@ html, body {
   font-size: .5px;
   line-height: .5;
   margin-top: 5px;
+  margin-bottom: 0px !important;
 }
 .main-container p{
   font-size: .3px;
   line-height: .5;
+  margin-top: 5px !important;
 }
 
 body {
