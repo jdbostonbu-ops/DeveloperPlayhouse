@@ -300,12 +300,12 @@ html, body {
   .section {
   font-size: .5px;
   line-height: .5;
-  padding: 25px;
+  padding: 5px;
 }
 .main-container h2{
   font-size: 1px;
   line-height: .5;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .main-container p{
   font-size: .5px;
@@ -399,10 +399,10 @@ html {
 .main-container h2{
   font-size: 1px;
   line-height: .5;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .section{
-  padding: 25px;
+  padding: 10px;
 }
 
   canvas{
