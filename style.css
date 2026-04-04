@@ -172,161 +172,285 @@ html {
 /* --- COMPACT PHONES (e.g., iPhone 12/13/14) --- */
 /* --- COMPACT IPHONES (Standard Portrait 480px) --- */
 @media (max-width: 480px) {
-  html, body {
-    height: 100%;
-    overflow: hidden; 
-    position: fixed;
-    width: 100%;
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  list-style: none;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  gap: 0px;
+  background-color: black;
+  font-size: 4px;
+}
+p{
+  font-size: 4px;
+}
+
+h2{
+  font-size:6px;
+}
+
+  canvas{
+    width:40px;
+    height:40px;
+  }
+
+a {
+  text-decoration: none;
+  color: silver;
+  padding-right: 40px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+/* The Line (Invisible and off-screen to the left by default) */
+a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #00f3ff; /* Cyan neon color */
+  
+  /* Neon Glow Effect */
+  box-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff;
+
+  /* Start shifted 100% to the left and invisible */
+  transform: translateX(-100%);
+  opacity: 0;
+  
+  /* Smooth "slow" transition */
+  transition: transform 0.5s ease-out, opacity 0.3s;
+}
+
+/* When the link is CLICKED (focused) */
+a:focus::after {
+  transform: translateX(0); /* Slide into place */
+  opacity: 1;
+}
+
+/* Optional: Slide it OUT to the right when you click away */
+a:not(:focus)::after {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.5s ease-in, opacity 0.3s;
+}
+
+
+canvas {
+  background: white;
+  border: 1px dashed;
+  margin-top: 20px;
+  touch-action: none;              /* Prevents panning/zooming in most browsers */
+  -webkit-user-select: none;       /* Prevents text selection on long-press */
+  -webkit-touch-callout: none;
+}
+
+html, body {
     margin: 0;
     padding: 0;
-    font-size: 10px;
-  }
+    width: 100%;
+    height: 100%;       /* Force full height */
+    overflow: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
+    position: fixed;
+    font-size: 4px;
+}
 
-    .main-container {
+body {
     display: flex;
-    flex-direction: row; /* Side-by-side on iPhone */
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    gap: 5px;
-  }
+    min-height: 100vh;
+    font-size: 4px;
+    
+}
 
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 5px;
-    background-color: #f0f0f0;
-  }
 
- .banner span[role="heading"] {
-    font-size: 12px;
-  }
-
-  .banner {
-    position: relative;
-    flex-direction: column;
-    padding: 0.4em;
-    gap: 4px;
+.painting {
     width: 100%;
-    font-size: 6px;
-  }
+    /* Keep your existing styles here */
+}
 
-  a {
-    font-size: 12px !important;
-    padding: 2px 0;
-    margin: 0 !important;
-    width: 100%;
-    justify-content: space-between;
-    display: flex;
-  }
 
-  canvas {
-    width: 50vw; 
-    max-height: 50vh;
-    margin-top: 5px;
-    border: 1px dashed #333;
-    touch-action: none;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  .palette {
-    gap: 8px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
+.palette {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 5px;
+}
 
-  .swatch {
-    width: 25px !important;
-    height: 25px !important;
-    margin-top: 5px !important; /* Overrides the 170px desktop gap */
-  }
+.swatch {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%; /* Makes them circles */
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+  margin-top: 50px;
+}
 
-  #about {
-    padding: 5px !important;
-    min-height: auto !important;
-  }
+.swatch:hover {
+  transform: scale(1.2);
+}
 
-  #about h2 { font-size: 10px; margin: 2px 0; }
-  #about p { font-size: 8px; margin-left:5px; line-height: 1.2; }
-  p{ font-size: 9px;}
+.swatch.active {
+  border-color: #333; /* Highlight selected color */
+}
 }
 
 
 /* --- EXTRA SMALL IPHONES (iPhone SE 350px) --- */
 @media (max-width: 350px) {
   /* Added the explicit HTML/BODY lock for 350px */
-  html, body {
-    height: 100%;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    font-size: 10px;
+ .banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  list-style: none;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  gap: 0px;
+  background-color: black;
+  font-size: 4px;
+}
+p{
+  font-size: 4px;
+}
+
+h2{
+  font-size:6px;
+}
+
+  canvas{
+    width:40px;
+    height:40px;
   }
 
-   .main-container {
+a {
+  text-decoration: none;
+  color: silver;
+  padding-right: 40px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+/* The Line (Invisible and off-screen to the left by default) */
+a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #00f3ff; /* Cyan neon color */
+  
+  /* Neon Glow Effect */
+  box-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff;
+
+  /* Start shifted 100% to the left and invisible */
+  transform: translateX(-100%);
+  opacity: 0;
+  
+  /* Smooth "slow" transition */
+  transition: transform 0.5s ease-out, opacity 0.3s;
+}
+
+/* When the link is CLICKED (focused) */
+a:focus::after {
+  transform: translateX(0); /* Slide into place */
+  opacity: 1;
+}
+
+/* Optional: Slide it OUT to the right when you click away */
+a:not(:focus)::after {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.5s ease-in, opacity 0.3s;
+}
+
+
+canvas {
+  background: white;
+  border: 1px dashed;
+  margin-top: 20px;
+  touch-action: none;              /* Prevents panning/zooming in most browsers */
+  -webkit-user-select: none;       /* Prevents text selection on long-press */
+  -webkit-touch-callout: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;       /* Force full height */
+    overflow: hidden;    /* This kills ALL scrolling (vertical and horizontal) */
+    position: fixed;
+    font-size: 4px;
+}
+
+body {
     display: flex;
-    flex-direction: row; /* Side-by-side on iPhone */
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    gap: 5px;
-  }
+    min-height: 100vh;
+    font-size: 4px;
+    
+}
 
-  body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centers the whole 'Playhouse' on the tiny screen */
-    padding: 2px;
-  }
 
-  .banner {
-    padding: 0.2em;
-    gap: 2px;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-  }
-  .banner span[role="heading"] {
-    font-size: 12px !important;
-  }
+.painting {
+    width: 100%;
+    /* Keep your existing styles here */
+}
 
-  a {
-    font-size: 4px !important;
-    padding: 1px 0;
-  }
 
-  canvas {
-    margin-top: 2px;
-    width: 50vw;
-    height: 50vh;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  .palette {
-    gap: 5px;
-    margin-top: 2px;
-  }
+.palette {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 5px;
+}
 
-  .swatch {
-    width: 8px !important;
-    height: 8px !important;
-    margin-top: 2px !important; /* Keeps palette tight to canvas */
-  }
+.swatch {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%; /* Makes them circles */
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: transform 0.2s, border-color 0.2s;
+  margin-top: 50px;
+}
 
-  #about h2 {
-    font-size: 10px;
-  }
+.swatch:hover {
+  transform: scale(1.2);
+}
 
-  #about p {
-    font-size: 8px !important;
-    line-height: 1.1;
-    margin-left: 5px;
-  }
-  p{
-    font-size: 9px;
-    display: flex;
-    align-items: center;
+.swatch.active {
+  border-color: #333; /* Highlight selected color */
 }
 }
+
 
 
