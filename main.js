@@ -32,6 +32,15 @@ canvas.addEventListener("pointermove", (e) => {
 canvas.addEventListener("pointerup", () => (isDrawing = false));
 canvas.addEventListener("pointerleave", () => (isDrawing = false));
 
+// For IOS versions touch
+canvas.addEventListener("touchstart", (e) => {
+  if (e.target === canvas) e.preventDefault();
+}, { passive: false });
+
+canvas.addEventListener("touchmove", (e) => {
+  if (e.target === canvas) e.preventDefault();
+}, { passive: false });
+
 // THE "DOWNLOAD" LOGIC
 document.querySelector("a").addEventListener("click", (event) => {
   event.preventDefault(); // Stop the "broken" default click
