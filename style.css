@@ -190,7 +190,7 @@ html {
   font-size: 4px;
 }
  .banner span{
-    font:8px;
+    font: 8px;
   }
   
   .nav {
@@ -281,8 +281,8 @@ html, body {
 .main-container h2{
   font-size: 8px;
 }
-.main-container h2 p{
-  font-size:6px;
+.main-container p{
+  font-size: 6px;
 }
 
 body {
@@ -354,10 +354,10 @@ html {
 }
 
   .banner span{
-    font:8px;
+    font: 8px;
   }
 .main-container p{
-  font-size: 4px;
+  font-size: 6px;
 }
 
 .main-container h2{
