@@ -1,5 +1,8 @@
 # 🤖Welcome to the Developer Playhouse, a creative sandbox where human intuition meets machine precision. 
 - This project is a digital canvas designed for collaboration, experimentation, and a little bit of world-domination prep.
+## 👤 Author
+**Jacqueline**  
+[Check out my GitHub Profile](https://github.com/jdbostonbu-ops)
 # About the Project
 - The Playhouse is a space to express yourself through code and color.
 - Use the interactive canvas to build your masterpiece, then save your creation to your local machine before the machines take over.
