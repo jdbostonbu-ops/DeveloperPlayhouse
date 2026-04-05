@@ -25,7 +25,7 @@
 
 # 📖 About the Project
 The Playhouse is a space to express yourself through code and color. It serves as a bridge between learning and doing:
-- **Education:** Includes links to the Google online courses and MDN (developer.mozilla.org) resources used to build this site.
+- **Education:** Includes links to the Google online courses and MDN (developer.mozilla.org) resources that I used to build this site.
 - **Testing:** A dedicated space to test your code and experiment with "features" (not bugs).
 - **Creation:** Use the interactive canvas to build your masterpiece, then save your creation to your local machine before the machines take over.
 
