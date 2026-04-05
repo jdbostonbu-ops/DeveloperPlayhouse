@@ -1,5 +1,6 @@
 # 🤖Welcome to the Developer Playhouse, a creative sandbox where human intuition meets machine precision. 
 - This project is a digital canvas designed for collaboration, experimentation, and a little bit of world-domination prep after actively taking Google's Web Development online courses.
+
 ``A creative sandbox where human intuition meets machine precision. This project is a digital canvas designed for collaboration, experimentation, and a little bit of world-domination prep.``
 
 ### 👤 Author
