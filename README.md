@@ -2,9 +2,12 @@
 - This project is a digital canvas designed for collaboration, experimentation, and a little bit of world-domination prep.
 ``A creative sandbox where human intuition meets machine precision.This project is a digital canvas designed for collaboration, experimentation, and a little bit of world-domination prep.``
 
-## 👤 Author
-**Jacqueline**   
-[Check out my GitHub Profile](https://github.com/jdbostonbu-ops)
+### 👤 Author
+**Jacqueline**  
+[Check out my GitHub Profile](https://github.com)
+
+🚀 **[Visit the Developer Playhouse](https://jdbostonbu-ops.github.io/DeveloperPlayhouse/)**
+
 # 🎨 Recent Masterpiece used as my favicon for the website.
 ![A Picasso painting from the Developer Playhouse](logo3.png)
 
