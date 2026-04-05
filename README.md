@@ -7,6 +7,7 @@
 ![A Picasso painting from the Developer Playhouse](logo3.png)
 # About the Project
 - The Playhouse is a space to express yourself through code and color.
+- It provides links to the google online courses I took to create the Website, as well as, developer.mozilla.org's playhouse to test your code.
 - Use the interactive canvas to build your masterpiece, then save your creation to your local machine before the machines take over.
 # Collaborative Spirit: 
 - A space where machines and humans create together.
