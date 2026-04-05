@@ -12,7 +12,7 @@
 # 🎨 Recent Masterpiece used as my favicon for the website.
 ![A Picasso painting from the Developer Playhouse](logo3.png)
 
-### 🌐 Browser & Device Compatibility
+# 🌐 Browser & Device Compatibility
 
 
 | Browser / Device | Status | Performance Notes |
