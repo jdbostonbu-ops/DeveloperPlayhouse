@@ -3,6 +3,8 @@
 ## 👤 Author
 **Jacqueline** 🎨  
 [Check out my GitHub Profile](https://github.com/jdbostonbu-ops)
+# 🎨 Recent Masterpiece
+![A Picasso painting from the Developer Playhouse](logo3.png)
 # About the Project
 - The Playhouse is a space to express yourself through code and color.
 - Use the interactive canvas to build your masterpiece, then save your creation to your local machine before the machines take over.
