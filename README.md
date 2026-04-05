@@ -1,7 +1,7 @@
 # 🤖Welcome to the Developer Playhouse, a creative sandbox where human intuition meets machine precision. 
 - This project is a digital canvas designed for collaboration, experimentation, and a little bit of world-domination prep.
 ## 👤 Author
-**Jacqueline** 🎨  
+**Jacqueline**   
 [Check out my GitHub Profile](https://github.com/jdbostonbu-ops)
 # 🎨 Recent Masterpiece
 ![A Picasso painting from the Developer Playhouse](logo3.png)
