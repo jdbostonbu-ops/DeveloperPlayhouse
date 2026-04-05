@@ -5,7 +5,7 @@
 
 ### 👤 Author
 **Jacqueline**  
-[Check out my GitHub Profile](https://github.com)
+[Check out my GitHub Profile](https://github.com/jdbostonbu-ops)
 
 🚀 **[Visit the Developer Playhouse](https://jdbostonbu-ops.github.io/DeveloperPlayhouse/)**
 
