@@ -3,7 +3,7 @@
 ## 👤 Author
 **Jacqueline**   
 [Check out my GitHub Profile](https://github.com/jdbostonbu-ops)
-# 🎨 Recent Masterpiece used as my website logo
+# 🎨 Recent Masterpiece used as my favicon for the website.
 ![A Picasso painting from the Developer Playhouse](logo3.png)
 # About the Project
 - The Playhouse is a space to express yourself through code and color.
