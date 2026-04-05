@@ -40,7 +40,7 @@ The Playhouse is a space to express yourself through code and color. It serves a
 The engine behind the Playhouse uses a 2D Canvas API with a few clever tricks:
 - **State Management:** Tracks `isDrawing` via mousedown/mouseup listeners to ensure you only paint when you want to.
 - **Memory Management:** Automatically revokes object URLs after downloads to keep the browser running lean.
-- **Collaborative Spirit:** A space where machines and humans create together using a "Last-Mile" resource exchange logic.
+- **Collaborative Spirit:** A space where machines and humans create together using a Creative Collaboration logic.
 
 # 🎮 How to Use
 - **Pick a color** from the dynamic swatches.
