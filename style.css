@@ -547,5 +547,30 @@ html {
 }
 }
 
+#shareBtn {
+    
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 20px; /* Rounded pill shape to match swatches */
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-left: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
 
+#shareBtn:hover {
+    background-color: #7a2bc2; /* Slightly darker on hover */
+    
+}
+
+#shareBtn:active {
+    transform: translateY(2px); /* Physical "click" effect */
+}
 
