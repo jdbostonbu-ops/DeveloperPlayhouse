@@ -79,5 +79,31 @@ swatches.forEach(swatch => {
   });
 });
 
+ // Find Share button/icon in the DOM
+const shareBtn = document.querySelector('#shareBtn');  // or whatever your share ID is
 
+if (shareBtn) {
+  shareBtn.addEventListener("click", async () => {
+    
+    //  Turn the canvas into a Blob (just like your download logic)
+    canvas.toBlob(async (blob) => {
+      const file = new File([blob], "my_painting.png", { type: "image/png" });
+
+      // Check if the browser supports sharing files (mobile Safari/Chrome usually do)
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        try {
+          await navigator.share({
+            files: [file],
+            title: "Check out my painting!",
+            text: "I made this on my digital canvas."
+          });
+        } catch (err) {
+          console.log("User cancelled or share failed:", err);
+        }
+      } else {
+        alert("Sharing isn't supported on this browser. Try downloading instead!");
+      }
+    }, "image/png");
+  });
+}
 
