@@ -107,3 +107,8 @@ if (shareBtn) {
   });
 }
 
+const clearBtn = document.querySelector('#clearBtn');
+clearBtn.addEventListener('click', () => {
+    const context = canvas.getContext('2d');
+    context.clearRect(0, 0, canvas.width, canvas.height);
+});
