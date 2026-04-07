@@ -3,7 +3,7 @@
  
 - We encourage users to use this demo site to create your own logo if you have that artistic vibe in you.
 
-``A creative sandbox where human intuition meets machine precision. This project is a digital canvas designed for collaboration, experimentation, and a little bit of world-domination prep.``
+``This is a creative sandbox where human intuition meets machine precision. This project is a digital canvas designed for collaboration, experimentation, and a little bit of world-domination prep.``
 
 ### 👤 Author
 **Jacqueline**  
