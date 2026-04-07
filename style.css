@@ -583,6 +583,7 @@ html {
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-top: 100px;
 }
 
 .ghost-button:hover {
