@@ -1,5 +1,5 @@
 # 🤖Welcome to the Developer Playhouse, a creative sandbox where human intuition meets machine precision. 
-``I stumbled upon this js design while learning about the anchor element and using the download attribute to save a <canvas> as a PNG. While actively taking Google's Web Development online courses, they led me to the MDN developer mozilla site which led me to the playground demo example of the painting app with save link. I added other features like a color swatch, a share button, and clear canvas button, and a nav bar to my demo along with subtle animations.``
+I stumbled upon this JS design while learning about the `anchor element` and using `the download attribute to save a <canvas>` as a PNG. While taking Google's Web Development courses, I was introduced to the MDN Web Docs site, which led me to a playground demo of a painting app. I used this as a foundation and added my own features—like a color swatch, a share button, and a 'clear canvas' button—to demonstrate the `anchor element’s versatility.` I also built a navigation bar to showcase how that same element can handle emails, calls, and downloads, all decorated with subtle animations.
  
 - We encourage users to use this demo site to create your own logo if you have that artistic vibe in you.
 
