@@ -1,5 +1,6 @@
 # 🤖Welcome to the Developer Playhouse, a creative sandbox where human intuition meets machine precision. 
-- After actively taking Google's Web Development online courses and using the MDN playground at developer.mozilla.org, I learned how to create a pa
+``I stumbled upon this js design while learning about the anchor element and using the download attribute to save a <canvas> as a PNG. While actively taking Google's Web Development online courses, they led me to the MDN developer mozilla site which led me to the playground demo example of the painting app with save link.``
+  
 - We encourage users to use this demo site to create your own logo if you have that artistic vibe in you.
 
 ``A creative sandbox where human intuition meets machine precision. This project is a digital canvas designed for collaboration, experimentation, and a little bit of world-domination prep.``
