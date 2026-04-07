@@ -46,4 +46,5 @@ The engine behind the Playhouse uses a 2D Canvas API with a few clever tricks:
 - **Pick a color** from the dynamic swatches.
 - **Click and drag** on the canvas to start collaborating with the machine.
 - **Click the Download Link** to save your `my_painting.png` forever.
+- **Share** your masterpiece by text, email, airdrop, save image, assign to contact, add to social media or add to any app listed on your iPhone as a .png file.
 
