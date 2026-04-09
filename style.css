@@ -393,4 +393,5 @@ html {
 .ghost-button:hover {
     background: blueviolet;
     color: white;
+    box-shadow: 0 0 10px blueviolet;
 }
