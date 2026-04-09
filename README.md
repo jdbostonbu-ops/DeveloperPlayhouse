@@ -12,7 +12,7 @@ I stumbled upon this JS design while learning about the `anchor element` and usi
 🚀 **[Visit the Developer Playhouse](https://jdbostonbu-ops.github.io/DeveloperPlayhouse/)**
 
 # 🎨 Recent Masterpiece used as my favicon for the website.
-![A Picasso painting from the Developer Playhouse](logo3.png)
+![A Picasso painting from the Developer Playhouse](my_painting-2.png)
 
 # 🌐 Browser & Device Compatibility
 
