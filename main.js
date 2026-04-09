@@ -2,11 +2,11 @@ const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");
 let brushSize = 5;
 
-// 1. FILL WHITE BACKGROUND AT START
+// FILL WHITE BACKGROUND AT START
 c.fillStyle = "white";
 c.fillRect(0, 0, canvas.width, canvas.height);
 
-// 2. SET BRUSH TO PINK
+// SET BRUSH TO PINK
 c.fillStyle = "hotpink";
 let isDrawing = false;
 
@@ -124,7 +124,7 @@ sizeButtons.forEach(btn => {
     // Update the brushSize variable with the number from the button
     brushSize = btn.getAttribute('data-size');
     
-    // Optional: Log it to the console to make sure it's working
+    
     console.log("Brush size is now: " + brushSize);
   });
 });
