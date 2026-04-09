@@ -362,8 +362,8 @@ html {
 }
 
 #shareBtn:hover {
-    background-color: #7a2bc2; /* Slightly darker on hover */
-    
+    background-color: #7a2bc2; /* Slightly darker on hover */    
+    box-shadow: 0 0 10px blueviolet;
 }
 
 #shareBtn:active {
