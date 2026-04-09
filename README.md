@@ -27,7 +27,7 @@ I stumbled upon this JS design while learning about the `anchor element` and usi
 | **Microsoft Surface** | ✅ Compatible | Full support for stylus and touch-based state management. |
 | **iPhone (iOS)** | ❌ Not Supported | Small-screen iOS is not currently optimized for canvas scaling. |
 
-> **Note:** The Developer Playhouse is a high-precision digital canvas designed for larger viewports. While it works across all modern desktop engines, a tablet or desktop screen is required for the intended creative experience.
+> **Note:** The Developer Playhouse is a high-precision digital canvas designed for larger viewports. While it works across most modern desktop engines, a tablet or desktop screen is required for the intended creative experience.
 
 # 📖 About the Project
 The Playhouse is a space to express yourself through code and color. It serves as a bridge between learning and doing:
