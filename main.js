@@ -1,5 +1,6 @@
 const canvas = document.querySelector("canvas");
 const c = canvas.getContext("2d");
+let brushSize = 5;
 
 // 1. FILL WHITE BACKGROUND AT START
 c.fillStyle = "white";
@@ -12,7 +13,7 @@ let isDrawing = false;
 function draw(x, y) {
   if (isDrawing) {
     c.beginPath();
-    c.arc(x, y, 10, 0, Math.PI * 2);
+    c.arc(x, y, brushSize, 0, Math.PI * 2);
     c.fill(); 
   }
 }
@@ -79,6 +80,7 @@ swatches.forEach(swatch => {
   });
 });
 
+
  // Find Share button/icon in the DOM
 const shareBtn = document.querySelector('#shareBtn');  // or whatever your share ID is
 
@@ -112,3 +114,18 @@ clearBtn.addEventListener('click', () => {
     const context = canvas.getContext('2d');
     context.clearRect(0, 0, canvas.width, canvas.height);
 });
+
+//  Find all the size buttons
+const sizeButtons = document.querySelectorAll('.size-btn');
+
+//  Listen for a click on each one
+sizeButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    // Update the brushSize variable with the number from the button
+    brushSize = btn.getAttribute('data-size');
+    
+    // Optional: Log it to the console to make sure it's working
+    console.log("Brush size is now: " + brushSize);
+  });
+});
+

@@ -370,6 +370,30 @@ html {
     transform: translateY(2px); /* Physical "click" effect */
 }
 
+.size-btn {
+    
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px; /* Rounded pill shape to match swatches */
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    gap: 40px;
+    margin-top: 10px;
+    
+}
+
+.size-btn:hover {
+    background-color: #7a2bc2; /* Slightly darker on hover */    
+    box-shadow: 0 0 10px blueviolet;
+}
+
+.size-btn:active {
+    transform: translateY(2px); /* Physical "click" effect */
+}
+
 .ghost-button {
     background: transparent;
     border: 2px solid blueviolet;
@@ -384,6 +408,7 @@ html {
     padding-top: 80px;
     position:absolute;
     z-index: 1;
+    opacity: 0.8;
 }
 
 #clearBtn {
