@@ -127,7 +127,7 @@ html {
   cursor: pointer;
   border: 3px solid transparent;
   transition: transform 0.2s, border-color 0.2s;
-  margin-top: 195px;
+  margin-top: 205px;
 }
 
 .swatch:hover {
