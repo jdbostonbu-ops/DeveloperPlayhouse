@@ -19,9 +19,9 @@ I stumbled upon this JS design while learning about the `anchor element` and usi
 
 | Browser / Device | Status | Performance Notes |
 | :--- | :--- | :--- |
-| **Google Chrome** | ✅ Compatible | Full support for Chrome and Chromium-based rendering. |
-| **Safari** | ✅ Compatible | Full support for Safari and WebKit rendering. |
-| **Microsoft Edge** | ✅ Compatible | Full support for Edge (Chromium) rendering. |
+| **Google Chrome** | ✅ Compatible | Full support for Chrome and Chromium-based rendering. Share Button shares a painting with a BLACK background canvas. |
+| **Safari** | ✅ Compatible | Full support for Safari and WebKit rendering. Share Button shares a painting with a WHITE background canvas.|
+| **Microsoft Edge** | ✅ Compatible | Full support for Edge (Chromium) rendering. Share Button shares a painting with a BLACK background canvas. |
 | **Firefox** | ⚠️ Partial | Share and Clear Canvas features are unavailable; Download does not display PNG files. |
 | **iPad / Tablets** | ✅ Compatible | Optimized for touch-to-canvas interactions and 2D drawing. |
 | **Microsoft Surface** | ✅ Compatible | Full support for stylus and touch-based state management. |
