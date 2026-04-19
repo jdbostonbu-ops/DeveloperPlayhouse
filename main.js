@@ -45,11 +45,11 @@ canvas.addEventListener("touchmove", (e) => {
 // THE "DOWNLOAD" LOGIC
 document.querySelector("a").addEventListener("click", () => {
 
-  // toBlob is the most reliable way to make macOS recognize the file
+  // toBlob a way to make macOS recognize the file
   canvas.toBlob((blob) => {
     const url = URL.createObjectURL(blob);
     
-    // Create a temporary link and trigger it immediately
+    // Create a temporary link and .download to download
     const tempLink = document.createElement("a");
     tempLink.href = url;
     tempLink.download = "my_painting.png";
