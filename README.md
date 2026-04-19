@@ -48,7 +48,7 @@ The Playhouse is a space to express yourself through code and color. It serves a
 The engine behind the Playhouse uses a 2D Canvas API with a few clever tricks:
 - **State Management:** Tracks `isDrawing` via mousedown/mouseup listeners to ensure you only paint when you want to.
 - **Memory Management:** Automatically revokes object URLs after downloads to keep the browser running lean.
-- **Selector Logic:** Because `document.querySelector('a')` will only pick the first `<a>`tag it finds in your HTML file, the order of elements is critical. If a standard web link were placed before the Download link, clicking that link would trigger both the site navigation and the canvas download logic at once.
+- **Selector Logic:** The script uses `document.querySelector('a')`, which will only pick the first tag it finds in the HTML file. In this layout, that first tag is the 'Download' link. Because the code stops searching after the first match, all subsequent links (like MDN or Email) are untouched by the JavaScript and continue to function as regular hyperlinks.
 
 # 🎮 How to Use
 - **Pick a color** from the dynamic swatches.
