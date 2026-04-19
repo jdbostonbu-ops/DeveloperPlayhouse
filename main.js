@@ -43,8 +43,7 @@ canvas.addEventListener("touchmove", (e) => {
 }, { passive: false });
 
 // THE "DOWNLOAD" LOGIC
-document.querySelector("a").addEventListener("click", (event) => {
-   // Stop the "broken" default click
+document.querySelector("a").addEventListener("click", () => {
 
   // toBlob is the most reliable way to make macOS recognize the file
   canvas.toBlob((blob) => {
