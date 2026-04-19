@@ -126,6 +126,7 @@ sizeButtons.forEach(btn => {
     console.log("Brush size is now: " + brushSize);
   });
 });
+```
 
 - **Testing:** A dedicated space to test your code and experiment with "features" (not bugs) found in the link that connects you to the MDN playground.
 - **Creation:** Use the interactive canvas to build your masterpiece, then save your creation to your local machine before the machines take over.
