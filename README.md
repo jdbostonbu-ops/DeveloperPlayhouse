@@ -1,5 +1,5 @@
 # 🤖Welcome to the Developer Playhouse, a creative sandbox where human intuition meets machine precision. 
-I stumbled upon this JS design while learning about the `anchor element` and using `the download attribute to save a <canvas>` as a PNG. While taking Google's Web Development courses, I was introduced to the MDN Web Docs site, which led me to a playground demo of a painting app. I used this as a foundation and added my own features—like a color swatch, a share button, a 'clear canvas' button and brush size buttons. I built the navigation bar to showcase how that same element can handle emails, calls, and downloads to demonstrate the `anchor element’s` versatility, all decorated with subtle animations.
+I stumbled upon this JS design while learning about the `anchor element` and using `the download attribute to save a <canvas>` as a PNG. While taking Google's Web Development courses, I was introduced to the MDN Web Docs site, which led me to a playground demo of a painting app. I used this as a foundation and added my own features—like a color swatch, a share button, a 'clear canvas' button and brush size buttons. I built the navigation bar to showcase how that same `<a>` element can handle emails, calls, and downloads to demonstrate the `anchor element’s` versatility, all decorated with subtle animations `https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a#using_the_download_attribute_to_save_a_canvas_as_a_png`
  
 - We encourage users to use this demo site to create your own logo if you have that artistic vibe in you.
 
@@ -52,7 +52,7 @@ The engine behind the Playhouse uses a 2D Canvas API with a few clever tricks:
 
 # 🎮 How to Use
 - **Pick a color** from the dynamic swatches.
-- **Click and drag** on the canvas to start collaborating with the machine.
+- **Click on the canvas** to start collaborating with the machine.
 - **Click the Download Link** to save your `my_painting.png` forever.
 - **Share** your masterpiece by text, email, airdrop, save image, assign to contact, add to social media or add to any app listed on your iPhone as a .png file.
 
