@@ -36,36 +36,9 @@ The Playhouse is a space to express yourself through code and color. It serves a
 - So, I changed my js to target the first `<a>` without using `download=` in `<a>`; however, I did test `<a href="" download="my_painting.png">Download my painting</a>` and it works perfectly if I moved it inside my nav without having to write canvas.toBlob etc. Basically, my code is "extra" because my version is 128 lines versus a much cleaner version. I put the cleaner version below displaying only 98 lines which is much easier to understand for beginners. We learn from our mistakes.
 
 ### 💻 The Core Logic
-You can copy the full 98 lines script used to test my mistake below:
+You can copy the download logic lines in the script used to test my mistake below and shorten the js from 128 to 98 lines:
 
 ```javascript
-const canvas = document.querySelector("canvas");
-const c = canvas.getContext("2d");
-let brushSize = 5;
-
-// 1. FILL WHITE BACKGROUND AT START
-c.fillStyle = "white";
-c.fillRect(0, 0, canvas.width, canvas.height);
-
-// 2. SET BRUSH TO PINK
-c.fillStyle = "hotpink";
-let isDrawing = false;
-
-function draw(x, y) {
-  if (isDrawing) {
-    c.beginPath();
-    c.arc(x, y, brushSize, 0, Math.PI * 2);
-    c.fill(); 
-  }
-}
-
-// Drawing Event Listeners
-canvas.addEventListener("mousemove", (event) =>
-  draw(event.offsetX, event.offsetY),
-);
-canvas.addEventListener("mousedown", () => (isDrawing = true));
-canvas.addEventListener("mouseup", () => (isDrawing = false));
-
 // THE "DOWNLOAD" LOGIC
 document
   .querySelector("a")
@@ -73,61 +46,6 @@ document
     "click",
     (event) => (event.target.href = canvas.toDataURL()),
   );
-  
-// Swatches Logic
-const swatches = document.querySelectorAll('.swatch');
-
-swatches.forEach(swatch => {
-  swatch.addEventListener('click', () => {
-    const newColor = swatch.getAttribute('data-color');
-    c.fillStyle = newColor;
-
-    swatches.forEach(s => s.classList.remove('active'));
-    swatch.classList.add('active');
-  });
-});
-
-// Share Logic
-const shareBtn = document.querySelector('#shareBtn');
-
-if (shareBtn) {
-  shareBtn.addEventListener("click", async () => {
-    canvas.toBlob(async (blob) => {
-      const file = new File([blob], "my_painting.png", { type: "image/png" });
-
-      if (navigator.canShare && navigator.canShare({ files: [file] })) {
-        try {
-          await navigator.share({
-            files: [file],
-            title: "Check out my painting!",
-            text: "I made this on my digital canvas."
-          });
-        } catch (err) {
-          console.log("User cancelled or share failed:", err);
-        }
-      } else {
-        alert("Sharing isn't supported on this browser. Try downloading instead!");
-      }
-    }, "image/png");
-  });
-}
-
-// Clear Canvas
-const clearBtn = document.querySelector('#clearBtn');
-clearBtn.addEventListener('click', () => {
-    const context = canvas.getContext('2d');
-    context.clearRect(0, 0, canvas.width, canvas.height);
-});
-
-// Size Selection
-const sizeButtons = document.querySelectorAll('.size-btn');
-
-sizeButtons.forEach(btn => {
-  btn.addEventListener('click', () => {
-    brushSize = btn.getAttribute('data-size');
-    console.log("Brush size is now: " + brushSize);
-  });
-});
 ```
 
 - **Testing:** A dedicated space to test your code and experiment with "features" (not bugs) found in the link that connects you to the MDN playground.
