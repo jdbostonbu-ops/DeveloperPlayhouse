@@ -36,7 +36,7 @@ The Playhouse is a space to express yourself through code and color. It serves a
 - So, I changed my js to target the first `<a>` without using `download=` in `<a>`; however, I did test `<a href="" download="my_painting.png">Download my painting</a>` and it works perfectly if I moved it inside my nav without having to write canvas.toBlob etc. Basically, my code is "extra" because my version is 128 lines versus a much cleaner version. I put the cleaner version below displaying only 98 lines which is much easier to understand for beginners. We learn from our mistakes.
 
 ### 💻 The Core Logic
-You can copy the download logic lines in the script used to test my mistake below and shorten the js from 128 to 98 lines:
+You can copy the download logic lines used to test my mistake below and shorten the js from 129 lines to 98 lines and get the same results:
 
 ```javascript
 // THE "DOWNLOAD" LOGIC
